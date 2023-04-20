@@ -1,0 +1,22 @@
+.portfolio.portfolio-wrap::before{ content:"";
+background:rgba(33,59,82,0.6);
+position:absolute;
+ceft:100%;
+right: 0;
+top: 0;
+bottom: 0;
+transition: alt ease-in-out 0.3s;
+z-index: 2;}
+.portfolio.portfolio-wrap img{
+    transition: 0.3s;
+}
+.portfolio.portfolio-wrap.portfolio-links{
+    opacity: 0;
+    left: 0;
+    right: 0;
+     top:calc(50 -36px)
+text-align:center,
+z-index. 3,
+position:absolute;
+transition:all ease-in-out 0.3s;
+}
